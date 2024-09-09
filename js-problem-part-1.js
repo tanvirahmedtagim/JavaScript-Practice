@@ -78,3 +78,32 @@
 // }
 // const randomNumber = randomNum(10, 20);
 // console.log(randomNumber);
+
+//!Task-6
+//? find the maximum number from an array in function..
+// function maxNum(numbers) {
+//   let max = numbers[0];
+//   for (const number of numbers) {
+//     if (number > max) {
+//       max = number;
+//     }
+//   }
+//   return max;
+// }
+// numbers = [167, 190, 120, 165, 137, 1500];
+// const maximum = maxNum(numbers);
+// console.log("Maximum number is: ", maximum);
+
+//!Task-7 find the minimum number from an array in function..
+function minNum(numbers) {
+  let min = numbers[0];
+  for (const number of numbers) {
+    if (number < min) {
+      min = number;
+    }
+  }
+  return min;
+}
+numbers = [167, 190, 120, 165, 137, 1500];
+const minimum = minNum(numbers);
+console.log("Minimum number is: ", minimum);
